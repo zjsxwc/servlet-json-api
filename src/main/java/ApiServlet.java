@@ -101,7 +101,7 @@ public class ApiServlet extends HttpServlet {
         map.put("code",-1);
         map.put("data",param);
 
-        map.put("output", fetchAddressFromMysql());
+        map.put("address", fetchAddressFromMysql());
 
         JSONObject jsonObj = new JSONObject(map);
         String resJSON = jsonObj.toString();
