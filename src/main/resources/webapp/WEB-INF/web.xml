@@ -36,6 +36,6 @@
     <servlet-mapping>
         <servlet-name>ApiServlet</servlet-name>
         <!-- 访问的网址 -->
-        <url-pattern>/</url-pattern>
+        <url-pattern>/api</url-pattern>
     </servlet-mapping>
 </web-app>
